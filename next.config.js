@@ -1,10 +1,12 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: 'export', 
   // Enable React strict mode for better development experience
   reactStrictMode: true,
 
   // Optimize images
   images: {
+    unoptimized: true,
     domains: ['avatars.githubusercontent.com'],
     formats: ['image/avif', 'image/webp'],
     minimumCacheTTL: 60,
