@@ -1,8 +1,8 @@
 import type { ResumeData } from "@/lib/types";
 
 export const RESUME_DATA: ResumeData = {
-  name: "Jae [Your Last Name]", // แก้ชื่อจริงตรงนี้
-  initials: "J",
+  name: "Techawat Srichai", // แก้ชื่อจริงตรงนี้
+  initials: "AJ",
   location: "Bangkok, Thailand",
   locationLink: "https://www.google.com/maps/place/Bangkok",
   about:
@@ -15,20 +15,20 @@ export const RESUME_DATA: ResumeData = {
       and implementing Green Building standards through AI solutions.
     </>
   ),
-  avatarUrl: "https://avatars.githubusercontent.com/u/xxxxxx?v=4", // ใส่รูปโปรไฟล์ GitHub ของคุณ หรือลิงก์รูปอื่น
-  personalWebsiteUrl: "https://[your-name].github.io", // แก้เป็นลิงก์เว็บใหม่ของคุณ
+  avatarUrl: "https://avatars.githubusercontent.com/u/199589895?v=4", // ใส่รูปโปรไฟล์ GitHub ของคุณ หรือลิงก์รูปอื่น
+  personalWebsiteUrl: "https://aj-srichai.github.io", // แก้เป็นลิงก์เว็บใหม่ของคุณ
   contact: {
-    email: "[ajsrichai1]@gmail.com", // แก้ตรงนี้
-    tel: "+66 [98 2975 791]", // แก้ตรงนี้
+    email: "ajsrichai1@gmail.com", // แก้ตรงนี้
+    tel: "+66 98 2975 791", // แก้ตรงนี้
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/[kraja-ckd]", // แก้ตรงนี้
+        url: "https://github.com/aj-srichai", // แก้ตรงนี้
         icon: "github",
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/[aj-srichai]/", // แก้ตรงนี้
+        url: "https://www.linkedin.com/in/aj-srichai/", // แก้ตรงนี้
         icon: "linkedin",
       },
       {
