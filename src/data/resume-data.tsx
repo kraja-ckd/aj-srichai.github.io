@@ -1,10 +1,10 @@
 import type { ResumeData } from "@/lib/types";
 
 export const RESUME_DATA: ResumeData = {
-  name: "Techawat Srichai", // แก้ชื่อจริงตรงนี้
+  name: "Techawat Srichai",
   initials: "AJ",
   location: "Bangkok, Thailand",
-  locationLink: "https://www.google.com/maps/place/Bangkok",
+  locationLink: "https://www.google.com/maps/place/Bangkok,+Thailand",
   about:
     "Civil Engineer & Innovation Lead transforming construction workflows with Automation, Python, and AI.",
   summary: (
@@ -15,35 +15,36 @@ export const RESUME_DATA: ResumeData = {
       and implementing Green Building standards through AI solutions.
     </>
   ),
-  avatarUrl: "https://avatars.githubusercontent.com/u/199589895?v=4", // ใส่รูปโปรไฟล์ GitHub ของคุณ หรือลิงก์รูปอื่น
-  personalWebsiteUrl: "https://aj-srichai.github.io", // แก้เป็นลิงก์เว็บใหม่ของคุณ
+  avatarUrl: "https://avatars.githubusercontent.com/u/199589895?v=4",
+  personalWebsiteUrl: "https://aj-srichai.github.io",
   contact: {
-    email: "ajsrichai1@gmail.com", // แก้ตรงนี้
-    tel: "+66 98 2975 791", // แก้ตรงนี้
+    email: "ajsrichai1@gmail.com",
+    tel: "+66 98 2975 791",
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/aj-srichai", // แก้ตรงนี้
+        url: "https://github.com/aj-srichai",
         icon: "github",
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/aj-srichai/", // แก้ตรงนี้
+        url: "https://www.linkedin.com/in/aj-srichai/",
         icon: "linkedin",
       },
-      {
-        name: "X",
-        url: "https://x.com/[your-username]", // แก้ตรงนี้ (ถ้ามี)
-        icon: "x",
-      },
+      // ถ้ามี Twitter/X ให้แก้ username แล้วเอา comment ออกครับ
+      // {
+      //   name: "X",
+      //   url: "https://x.com/yourusername",
+      //   icon: "x",
+      // },
     ],
   },
   education: [
     {
       school: "Kasetsart University",
       degree: "Bachelor's Degree in Civil Engineering",
-      start: "2020", // แก้ปีที่เริ่ม
-      end: "2024",   // แก้ปีที่จบ
+      start: "2020",
+      end: "2024",
     },
   ],
   work: [
@@ -52,7 +53,7 @@ export const RESUME_DATA: ResumeData = {
       link: "https://www.cpfworldwide.com/",
       badges: ["Innovation Lead", "Civil Eng", "Python", "Power Platform"],
       title: "Civil Engineer (Central Construction Engineering Team)",
-      start: "2025", // แก้ปีที่เริ่มทำงาน
+      start: "2025",
       end: "Present",
       description: (
         <>
@@ -72,11 +73,11 @@ export const RESUME_DATA: ResumeData = {
       ),
     },
     {
-      company: "Sino-Thai Engineering & Construction PCL", // แก้ชื่อบริษัทเก่า
-      link: "",
+      company: "Sino-Thai Engineering & Construction PCL",
+      link: "https://www.stecon.co.th/", // ผมเพิ่มลิงก์เว็บ Sino-Thai ให้ครับ
       badges: ["On Site", "QC/QA", "Inspection"],
       title: "QC Engineer",
-      start: "2024", // แก้ปี
+      start: "2024",
       end: "2025",
       description: (
         <>
@@ -115,7 +116,7 @@ export const RESUME_DATA: ResumeData = {
         "Automated concrete & steel take-off engine replacing manual calculations with dynamic waste logic algorithms.",
       link: {
         label: "GitHub",
-        href: "https://github.com/[your-username]/[project-repo]", // ใส่ลิงก์ GitHub โปรเจกต์นี้
+        href: "https://github.com/aj-srichai", // ใส่ลิงก์รวมไปก่อนถ้ายังไม่มี repo แยก
       },
     },
     {
@@ -125,7 +126,7 @@ export const RESUME_DATA: ResumeData = {
         "AI Chatbot capable of answering questions about Green Building standards using RAG (Retrieval-Augmented Generation).",
       link: {
         label: "GitHub",
-        href: "#",
+        href: "https://github.com/aj-srichai",
       },
     },
     {
@@ -135,7 +136,7 @@ export const RESUME_DATA: ResumeData = {
         "Automation script generating 189+ quotation documents instantly, reducing manual workload by 90%.",
       link: {
         label: "GitHub",
-        href: "#",
+        href: "https://github.com/aj-srichai",
       },
     },
     {
@@ -145,7 +146,7 @@ export const RESUME_DATA: ResumeData = {
         "Interactive dashboard for tracking construction progress and budget utilizing real-time site data.",
       link: {
         label: "Demo",
-        href: "#",
+        href: "https://github.com/aj-srichai",
       },
     },
   ],
