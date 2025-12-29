@@ -1,236 +1,151 @@
 import type { ResumeData } from "@/lib/types";
 
 export const RESUME_DATA: ResumeData = {
-  name: "Bartosz Jarocki",
-  initials: "BJ",
-  location: "Wrocław, Poland, CET",
-  locationLink: "https://www.google.com/maps/place/Wrocław",
-  about: "Full Stack Engineer dedicated to building high-quality products.",
+  name: "Jae [Your Last Name]", // แก้ชื่อจริงตรงนี้
+  initials: "J",
+  location: "Bangkok, Thailand",
+  locationLink: "https://www.google.com/maps/place/Bangkok",
+  about:
+    "Civil Engineer & Innovation Lead transforming construction workflows with Automation, Python, and AI.",
   summary: (
     <>
-      Full Stack Engineer specializing in high-performance React applications,
-      scalable Node.js services, and real-time collaboration systems.
-      Experienced in technical architecture design and remote team leadership.
+      Civil Engineer specializing in Innovation and Construction Technology at CPF.
+      Expert in bridging the gap between traditional engineering and modern software development.
+      Proven track record in automating material estimation, developing internal web applications,
+      and implementing Green Building standards through AI solutions.
     </>
   ),
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
-  personalWebsiteUrl: "https://jarocki.me",
+  avatarUrl: "https://avatars.githubusercontent.com/u/xxxxxx?v=4", // ใส่รูปโปรไฟล์ GitHub ของคุณ หรือลิงก์รูปอื่น
+  personalWebsiteUrl: "https://[your-name].github.io", // แก้เป็นลิงก์เว็บใหม่ของคุณ
   contact: {
-    email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
+    email: "[ajsrichai1]@gmail.com", // แก้ตรงนี้
+    tel: "+66 [98 2975 791]", // แก้ตรงนี้
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
+        url: "https://github.com/[kraja-ckd]", // แก้ตรงนี้
         icon: "github",
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
+        url: "https://www.linkedin.com/in/[aj-srichai]/", // แก้ตรงนี้
         icon: "linkedin",
       },
       {
         name: "X",
-        url: "https://x.com/BartoszJarocki",
+        url: "https://x.com/[your-username]", // แก้ตรงนี้ (ถ้ามี)
         icon: "x",
       },
     ],
   },
   education: [
     {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
+      school: "Kasetsart University",
+      degree: "Bachelor's Degree in Civil Engineering",
+      start: "2020", // แก้ปีที่เริ่ม
+      end: "2024",   // แก้ปีที่จบ
     },
   ],
   work: [
     {
-      company: "Motion",
-      link: "https://motionapp.com/",
-      badges: ["Remote", "AI", "React", "Next.js", "TypeScript", "AdonisJS"],
-      title: "Senior Software Engineer",
-      start: "2025",
-      end: null,
+      company: "CPF (Charoen Pokphand Foods)",
+      link: "https://www.cpfworldwide.com/",
+      badges: ["Innovation Lead", "Civil Eng", "Python", "Power Platform"],
+      title: "Civil Engineer (Central Construction Engineering Team)",
+      start: "2025", // แก้ปีที่เริ่มทำงาน
+      end: "Present",
       description: (
         <>
-          Working on internal AI agents platform allowing marketing specialists
-          to create AI workflows.
+          Leading innovation initiatives to optimize construction site workflows using low-code tools and custom software.
+          <ul className="list-inside list-disc">
+            <li>
+              Engineered a Python-based material estimation engine for automated concrete/steel take-offs, minimizing budget variances.
+            </li>
+            <li>
+              Streamlined zone-based BOQ processing to optimize inventory and procurement costs using Data Automation.
+            </li>
+            <li>
+              Developed internal web applications to digitize manual processes and improve real-time tracking.
+            </li>
+          </ul>
         </>
       ),
     },
     {
-      company: "Film.io",
-      link: "https://film.io",
-      badges: ["Remote", "React", "Next.js", "TypeScript", "Node.js"],
-      title: "Software Architect",
-      start: "2024",
+      company: "Sino-Thai Engineering & Construction PCL", // แก้ชื่อบริษัทเก่า
+      link: "",
+      badges: ["On Site", "QC/QA", "Inspection"],
+      title: "QC Engineer",
+      start: "2024", // แก้ปี
       end: "2025",
       description: (
         <>
-          Leading technical architecture of a blockchain-based film funding
-          platform.
+          Ensured structural integrity and quality standards for large-scale construction projects.
           <ul className="list-inside list-disc">
             <li>
-              Architecting migration from CRA to Next.js for improved
-              performance, SEO, and DX
+              Inspected steel reinforcement and concrete pouring processes to ensure compliance with engineering standards.
             </li>
             <li>
-              Established release process enabling faster deployments and
-              reliable rollbacks
-            </li>
-            <li>
-              Implementing system-wide monitoring and security improvements
+              Managed quality control documentation and coordinated with site engineers for defect resolution.
             </li>
           </ul>
         </>
       ),
-    },
-    {
-      company: "Parabol",
-      link: "https://parabol.co",
-      badges: [
-        "Remote",
-        "React",
-        "TypeScript",
-        "Node.js",
-        "GraphQL",
-        "Tailwind CSS",
-      ],
-      title: "Senior Full Stack Developer",
-      start: "2021",
-      end: "2024",
-      description: (
-        <>
-          Senior developer and squad leader for an enterprise agile meeting
-          platform.
-          <ul className="list-inside list-disc">
-            <li>
-              Built design system with Tailwind CSS, improving development speed
-              and time to market
-            </li>
-            <li>
-              Implemented engineering practices: PR automation, code review
-              guidelines, and workflows
-            </li>
-            <li>
-              Open source contributions to Relay DevTools and React i18n tooling
-            </li>
-          </ul>
-        </>
-      ),
-    },
-    {
-      company: "Clevertech",
-      link: "https://clevertech.biz",
-      badges: ["Remote", "React", "TypeScript", "Node.js", "Android", "Kotlin"],
-      title: "Lead Android Developer → Full Stack Developer",
-      start: "2015",
-      end: "2021",
-      description: (
-        <>
-          Successfully transitioned from mobile to full-stack development while
-          leading distributed teams.
-          <ul className="list-inside list-disc">
-            <li>
-              Led frontend team at Evercast, building real-time platform
-              supporting 30+ users per room with HD streaming and collaboration
-              tools
-            </li>
-            <li>
-              Developed offline-first Android app for DKMS, improving donor
-              registration process
-            </li>
-            <li>
-              Led development teams across multiple successful client projects
-            </li>
-          </ul>
-        </>
-      ),
-    },
-    {
-      company: "Jojo Mobile",
-      link: "https://bsgroup.eu/",
-      badges: ["On Site", "Android", "Java", "Kotlin"],
-      title: "Android Developer → Lead Android Developer",
-      start: "2012",
-      end: "2015",
-      description: (
-        <>
-          First Android developer, grew and led a team of 15+ engineers while
-          establishing engineering culture.
-          <ul className="list-inside list-disc">
-            <li>
-              Developed apps for major Polish companies including LOT, Polskie
-              Radio, and Agora
-            </li>
-            <li>Built and mentored high-performing mobile development team</li>
-          </ul>
-        </>
-      ),
-    },
-    {
-      company: "Nokia Siemens Networks",
-      link: "https://www.nokia.com",
-      badges: ["On Site", "C/C++", "LTE", "Agile"],
-      title: "C/C++ Developer",
-      start: "2010",
-      end: "2012",
-      description:
-        "Developed software for LTE base stations at enterprise scale, gaining strong fundamentals in software architecture, testing practices, and cross-team collaboration.",
     },
   ],
   skills: [
-    "React/Next.js/Remix",
-    "TypeScript",
-    "Tailwind CSS",
-    "Design Systems",
-    "WebRTC",
-    "WebSockets",
-    "Node.js",
-    "GraphQL",
-    "Relay",
-    "System Architecture",
-    "Remote Team Leadership",
+    "Civil Engineering",
+    "Construction Management",
+    "Python",
+    "React / React Native",
+    "Power Platform (BI/Automate)",
+    "SQL / PostgreSQL",
+    "FastAPI",
+    "BIM (Revit)",
+    "Net Zero Supply Chains",
+    "Building Control Laws",
+    "n8n / Make",
+    "Docker",
   ],
   projects: [
     {
-      title: "Monito",
-      techStack: ["TypeScript", "Next.js", "Browser Extension", "PostgreSQL"],
+      title: "Material Estimation Engine",
+      techStack: ["Python", "Pandas", "Algorithm Design"],
       description:
-        "Browser extension for debugging web applications. Includes taking screenshots, screen recording, E2E tests generation and generating bug reports",
+        "Automated concrete & steel take-off engine replacing manual calculations with dynamic waste logic algorithms.",
       link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
+        label: "GitHub",
+        href: "https://github.com/[your-username]/[project-repo]", // ใส่ลิงก์ GitHub โปรเจกต์นี้
       },
     },
     {
-      title: "Consultly",
-      techStack: [
-        "TypeScript",
-        "Next.js",
-        "Vite",
-        "GraphQL",
-        "WebRTC",
-        "Tailwind CSS",
-        "PostgreSQL",
-        "Redis",
-      ],
+      title: "Green Building AI Assistant",
+      techStack: ["LangChain", "RAG", "Supabase", "AI"],
       description:
-        "Platform for online consultations with real-time video meetings and scheduling",
+        "AI Chatbot capable of answering questions about Green Building standards using RAG (Retrieval-Augmented Generation).",
       link: {
-        label: "consultly.com",
-        href: "https://consultly.com/",
+        label: "GitHub",
+        href: "#",
       },
     },
     {
-      title: "Minimalist CV",
-      techStack: ["TypeScript", "Next.js", "Tailwind CSS"],
+      title: "Automated Quotation System",
+      techStack: ["Python", "Excel Automation", "Scripting"],
       description:
-        "An open source minimalist, print friendly CV template with a focus on readability and clean design. >9k stars on GitHub",
+        "Automation script generating 189+ quotation documents instantly, reducing manual workload by 90%.",
       link: {
-        label: "Minimalist CV",
-        href: "https://github.com/BartoszJarocki/cv",
+        label: "GitHub",
+        href: "#",
+      },
+    },
+    {
+      title: "Construction Dashboard",
+      techStack: ["Power BI", "Data Analytics", "SQL"],
+      description:
+        "Interactive dashboard for tracking construction progress and budget utilizing real-time site data.",
+      link: {
+        label: "Demo",
+        href: "#",
       },
     },
   ],
